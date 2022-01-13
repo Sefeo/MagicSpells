@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13eb3bf2-21ea-4455-a128-039b4f000043" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MagicSpells/src/MagicSpells/manager/SpellManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/artifacts/TntTag_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/libraries/Desktop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/libraries/Spigot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/TntTag.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/MinecraftProjects/TntTag/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/MinecraftProjects/TntTag/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/META-INF/TntTag.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/arena/Arena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/commands/Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/data/UpdateData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/items/ExitItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/items/ShopItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/listener/BungeeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/listener/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/listener/SubListeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/manager/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/scoreboard/Scoreboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/shop/Buffs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/TntTag/shop/Inventories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/out/production/TntTag/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/arena/Arena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/commands/Commands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/data/UpdateData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/items/ExitItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/items/ShopItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/listener/BungeeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/listener/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/listener/SubListeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/manager/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/scoreboard/Scoreboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/shop/Buffs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TntTag/src/TntTag/shop/Inventories.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>вспомо</find>
+      <find>prepare</find>
+      <find>result</find>
+      <find>sche</find>
+      <find>tpmeta</find>
+      <find>loretp</find>
+      <find>duratio</find>
+      <find>left</find>
+      <find>gettimer</find>
+      <find>spells.spellCooldownLeft</find>
+      <find>.damage</find>
+      <find>air</find>
+      <find>heal</find>
+      <find>light</find>
+      <find>hashm</find>
+      <find>coold</find>
+      <find>waiting</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>spellMeta</replace>
+      <replace>spellLore</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\GitProjects\MagicSpells\MagicSpells\src\MagicSpells\spells</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/data/UpdateData.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/SpellsActivation.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/enums/SpellsNames.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/items/ClassPowerItems.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/inventories/ChooseClassInventory.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/data/Config.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Healer.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Tank.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/commands/Commands.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/data/CheckData.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/manager/Manager.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/AirSpell.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/FireSpell.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/DarkMage.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Mage.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Archer.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Berserk.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/items/SpellItems.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/listener/Handler.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/EarthSpell.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/HealSpell.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/PoisonSpell.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/listener/SubListeners.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/manager/SpellManager.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/TpSpell.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/LightningSpell.java" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/config.yml" />
+        <option value="$PROJECT_DIR$/MagicSpells/src/MagicSpells/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="720" />
+    <option name="width" value="720" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641936955114" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/MagicSpells" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13eb3bf2-21ea-4455-a128-039b4f000043" name="Default Changelist" comment="" />
+      <created>1629474026157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629474026157</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3415682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3272933" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Codota" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32975295" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/commands/Commands.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/items/ExitItem.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/listener/Handler.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/scoreboard/Scoreboard.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/manager/Manager.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/Main.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/shop/Inventories.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/listener/BungeeListener.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/shop/Buffs.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/data/UpdateData.java" />
+    <entry file="file://$PROJECT_DIR$/TntTag/src/TntTag/arena/Arena.java" />
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/SpellsActivation.java" />
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/inventories/ChooseClassInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#1024#1025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/data/UpdateData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/enums/ClassesNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/enums/SpellsNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/items/ClassPowerItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Healer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/FireSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/manager/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="79" column="65" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Archer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/DarkMage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="64" column="209" selection-start-line="64" selection-start-column="209" selection-end-line="64" selection-end-column="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/data/CheckData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="127" selection-start-line="18" selection-start-column="127" selection-end-line="18" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/commands/Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/classes/Berserk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/items/SpellItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="150" column="61" selection-start-line="150" selection-start-column="61" selection-end-line="150" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/listener/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/EarthSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/HealSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/manager/SpellManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/LightningSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/AirSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="68" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/TpSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/spells/PoisonSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="146" selection-start-line="3" selection-start-column="146" selection-end-line="3" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/listener/SubListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="78" column="139" lean-forward="true" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagicSpells/src/MagicSpells/data/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>MagicSpells</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TntTag</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>spigot-cristalix</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

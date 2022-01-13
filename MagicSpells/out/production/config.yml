@@ -1,0 +1,93 @@
+IsClassChoosingEnabled: true
+# если true, то при первом заходе игроку будет предлагать выбрать класс. Если false, то используйте плагин как либу и врубайте выбор где хотите
+
+Database: # данные от бд, MainTable - основная таблица, которую нужно создать вручную, Table - таблица c данными внутри, создается автоматически
+  Url: 127.0.0.1:3306
+  MainTable: magicspells
+  Table: users
+  User: root
+  Password: ~
+
+  # ВАЖНО! При нанесении урона по игрокам плагин учитывает броню, так что базовые значения слегка завышены
+
+# Cooldown у всех заклинаний - время до отката. Имей в виду, что при кулдауне нельзя юзать ЛЮБЫЕ заклинания, не только использованное.
+Spells: # WaitingTime - время, которое некоторые заклинания ждут на выполнение своих условий (нанесение удара). Если за WaitingTime условие не выполняется, заклинание уходит на кулдаун.
+  AIR: # Strength AIR - дальность отбрасывания
+    Strength: 4
+    Cooldown: 20
+    WaitingTime: 20
+  FIRE: # Strength FIRE - длительность поджёга
+    Strength: 4
+    Cooldown: 30
+    WaitingTime: 20
+  EARTH: # Strength EARTH - радиус поражения заклинания, SubStrength - количество урона врагам в зоне поражения
+    Strength: 5
+    SubStrength: 9
+    Cooldown: 40
+  HEAL: # Strength HEAL - количество отхила от максимального ХП в процентах
+    Strength: 30
+    Cooldown: 40
+  LIGHTNING: # Strength LIGHTNING - урон от попадания молнией
+    Strength: 11
+    Cooldown: 60
+  POISON: # Strength Poison - количество ежесекундного урона от максимального ХП в процентах, SubStrength - секунды действия, то есть сколько всего ударов нанесёт заклинание
+    Strength: 15
+    SubStrength: 5
+    Cooldown: 60
+    WaitingTime: 20
+  TP:  # Strength TP - максимальная дальность телепортации
+    Strength: 50
+    Cooldown: 30
+
+# Cooldown у всех класов - время до отката способности, duration - длительность способности
+Classes:
+  BERSERK: # passivePower Berserk - увеличенный урон от оружий ближнего боя в процентах
+    PassivePower: 10
+    Power: # strength Berserk - уровень эффектов силы, скорости и прыгучести
+      Cooldown: 60
+      Duration: 10
+      Strength: 2
+  TANK: # passive Tank - дополнительные ХП от максимального ХП в процентах
+    PassivePower: 50
+    Power:  # strength Tank - кол-во поглощаемого урона в процентах, выше 100% не ставить
+       Cooldown: 120
+       Duration: 5
+       Strength: 80
+  ARCHER: # passive Archer - отхил при попадании из лука в процентах
+    PassivePower: 10
+    Power: # strength Archer - увеличение урона из лука в процентах, subStrength - уровень эффектов скорости и прыгучести
+       Cooldown: 60
+       Duration: 15
+       Strength: 150
+       SubStrength: 1
+  HEALER:  # passive Healer - сколько ХП восстанавливает всем, passiveSubStrength - как часто восстанавливает. Учти, что частота восстановления может повлиять на ТПС
+    PassivePower: 3
+    PassivePowerSubStrength: 10
+    Power: # duration ТУТ специфичен, обозначает продолжительность эффекта регенерации, strength - процент мгновенного восстановления ХП от максимального ХП, выше 100% не ставить, subStrength  - уровень эффекта регенерации
+       Cooldown: 90
+       Duration: 8
+       Strength: 80
+       SubStrength: 1
+  MAGE: # passive Mage - уменьшение урона от горения в процентах, выше 100% не ставить
+    PassivePower: 50
+    Power: # strength Mage - кол-во секунд горения врага при ударе
+       Cooldown: 60
+       Duration: 8
+       Strength: 3
+  DARKMAGE:  # passive DarkMage - отражение получаемого урона в процентах
+    PassivePower: 10
+    Power:  # strength DarkMage - кол-во секунд, которое будут действовать негативные эффекты при ударе, subStrength - увеличение урона по мобам в процентах
+       Cooldown: 90
+       Duration: 8
+       Strength: 1
+       SubStrength: 300
+
+
+
+
+
+
+
+
+
+

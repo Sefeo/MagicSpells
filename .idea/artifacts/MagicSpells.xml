@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MagicSpells">
+    <output-path>$USER_HOME$/Desktop/MinecraftProjects/NewTest/plugins</output-path>
+    <root id="archive" name="MagicSpells.jar">
+      <element id="module-output" name="TntTag" />
+    </root>
+  </artifact>
+</component>
